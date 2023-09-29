@@ -11,13 +11,8 @@ void setup() {
 //
 void draw() {
   numPadRects();
-  fill(purple);
-  textAlign (CENTER, CENTER);
-  size = 50;
-  textFont(font, 50);
   //
-  text(title, titleX, titleY, titleWidth, titleHeight);
-  fill(whiteInk);
+  
 
   
   /*

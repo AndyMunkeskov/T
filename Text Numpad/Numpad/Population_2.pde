@@ -1,5 +1,3 @@
-// Method for Writing X&Y Array Variables
-//
 void population() {
   //Simple Width Algorithm
   widthSquare = appWidth*1/4;
@@ -28,8 +26,7 @@ void population() {
     //println("Inside y", y[i] );
   }//End for//println("Inside", y[i]);
   //y[i] = widthSquare*5/2;
-}//End FOR
+  //End FOR
   //printArray(x);
   //printArray(y);
-  //
-  }
+} //End Population
