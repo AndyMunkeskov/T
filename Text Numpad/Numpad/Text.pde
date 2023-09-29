@@ -1,8 +1,8 @@
 PFont font;
-color purple=#4411BC , white=#000000; //Not night mode friendly
+color purple=#4411BC, white=#000000; //Not night mode friendly
 //
 void textSetup() {
-  
+
   //Fonts from OS
   String[] fontList = PFont.list();
   printArray(fontList);
@@ -10,7 +10,6 @@ void textSetup() {
   font = createFont ("GillSansMT-48", 55);
 } // End textSetup
 //
-purple, CENTER, CENTER, font, title, titleX, titleY, titleWidth, titleHeight
 void textDraw( color ink, int alignX, int alignY, PFont font, String text, float rectX, float rectY, float rectWidth, float rectHeight) {
   fill( ink );
   textAlign (alignX, alignY);

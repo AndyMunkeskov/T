@@ -29,7 +29,7 @@ void draw() {
    rect(x2, y2, widthSquare, heightSquare);
    rect(x2, y3, widthSquare, heightSquare);
    */
-
+  textDraw( purple, CENTER, CENTER, font, title, titleX, titleY, titleWidth, titleHeight );
 } //End Draw
 //
 void mousePressed() {
