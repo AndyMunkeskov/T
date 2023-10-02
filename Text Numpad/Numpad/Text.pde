@@ -10,15 +10,14 @@ void textSetup() {
   font = createFont ("GillSansMT-48", 55);
 } // End textSetup
 //
-void textDraw( color ink, int alignX, int alignY, PFont font, String text, float rectX, float rectY, float rectWidth, float rectHeight) {
+void textDraw( color ink, int alignX, int alignY, PFont font, String text rectX, rectY, rectWidth, rectHeight ) {
   fill( ink );
   textAlign (alignX, alignY);
   float size = textCalculator( rectWidth );
   textFont(font, size); //Change number until it fits
   text( text, rectX, rectY, rectWidth, rectHeight );
   fill(white);
-} //End Text Draw
-}//
+}//End Text Draw
 //
 float textCalculator(float size, float rectWidth, String text ) {
   float size = appWidth;

@@ -27,6 +27,6 @@ void population() {
   }//End for//println("Inside", y[i]);
   //y[i] = widthSquare*5/2;
   //End FOR
-  //printArray(x);
-  //printArray(y);
+  printArray(x);
+  printArray(y);
 } //End Population

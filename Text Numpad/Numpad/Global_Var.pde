@@ -4,3 +4,4 @@ float[] x = new float [numPadColumns];
 int numPadRows = 5;
 float[] y = new float [numPadRows];
 boolean p = false;
+float rectX, rectY, rectWidth, rectHeight;
